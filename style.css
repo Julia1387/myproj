@@ -1,12 +1,20 @@
- @font-face {
+@font-face {
 	font-family: "Roboto-Regular";
+<<<<<<< HEAD
 	src : url("fonts/Roboto/Roboto-Regular.ttf");
+=======
+	src: url("./fonts/Roboto/Roboto-Regular.ttf");
+>>>>>>> f6e7822d648a46f7248a19fad57094afe6cb46a2
 }
 
 .content {
 	width: 750px;
 	margin: 0 auto;
+<<<<<<< HEAD
 	font-family: Roboto-Regular;	
+=======
+	font-family: "Roboto-Regular";
+>>>>>>> f6e7822d648a46f7248a19fad57094afe6cb46a2
 }
 
 .header {
@@ -31,7 +39,7 @@
 	align-items: center;
 	font-size: 18px;
 	font-style: italic;
-	color: #3950A0;	
+	color: #3950A0;
 }
 
 .date-comments__icon {
