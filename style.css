@@ -40,14 +40,14 @@
 
 li:before {
 	color: #F18080;
-	content: "●"; 
+	content: "●";
 	padding: 5px;
 }
 
 li {
   list-style: none;
   line-height: 27px;
-  margin-left: -48px; 
+  margin-left: -48px;
 }
 
 .h2 {
@@ -70,7 +70,7 @@ li {
 .b {
 	font-family: Roboto-Regular;
 	font-style: regular;
-	font-weight: 400;	
+	font-weight: 400;
 }
 
 .b i {
@@ -78,7 +78,7 @@ li {
 }
 
 .i b {
-	font-family: MediumItalic;	
+	font-family: MediumItalic;
 }
 
 .thumb-wrap {
