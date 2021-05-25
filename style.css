@@ -1,12 +1,12 @@
  @font-face {
 	font-family: "Roboto-Regular";
-	scr : url("fonts/Roboto/Roboto-Regular.ttf");
+	src : url("fonts/Roboto/Roboto-Regular.ttf");
 }
 
 .content {
 	width: 750px;
 	margin: 0 auto;
-	font-family: Roboto;	
+	font-family: Roboto-Regular;	
 }
 
 .header {
@@ -16,6 +16,7 @@
 	font-size: 24px;
 	line-height: 32px;
 	margin-bottom: 35px;
+	font-family: "Roboto-Regular";
 }
 
 .date-comments {
@@ -50,7 +51,7 @@ li {
 }
 
 .h2 {
-	font-family: Roboto;
+	font-family: Roboto-Regular;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 22px;
@@ -59,7 +60,7 @@ li {
 }
 
 .i {
-	font-family: Roboto;
+	font-family: Roboto-Regular;
 	font-style: italic;
 	font-weight: 500;
 	font-size: 17px;
@@ -67,7 +68,7 @@ li {
 }
 
 .b {
-	font-family: Roboto;
+	font-family: Roboto-Regular;
 	font-style: regular;
 	font-weight: 400;	
 }
@@ -80,4 +81,19 @@ li {
 	font-family: MediumItalic;	
 }
 
+.thumb-wrap {
+	position: relative;
+	padding-bottom: 56.25%; /* задаёт высоту контейнера для 16:9 (если 4:3 — поставьте 75%) */
+	height: 0;
+	overflow: hidden;
+  }
+  .thumb-wrap iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-width: 0;
+	outline-width: 0;
+  }
 
